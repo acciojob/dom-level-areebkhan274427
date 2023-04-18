@@ -2,7 +2,7 @@
 
 function hello(){
 	var ele = document.getElementById('level');
-    var arr=ele.innerText().split(' ');
+    var arr=ele.innerText.split(' ');
 
 alert(arr[1]);
 }
